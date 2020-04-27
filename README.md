@@ -148,14 +148,12 @@ Predictions will be saved in ___`data/tmp/predictions/`___
 
 #### Code
 
-* Config file
-* Have different function to call regarding mode
+* Load hyperparameters from config file
 * Subparser regarding mode 
 * Link models saved and config 
 * Gather predict / predict_test
 * pytest 
 * fix imports
-
 * Better code design
 * Better parametrisation 
 
