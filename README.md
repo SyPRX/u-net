@@ -79,7 +79,7 @@ $ python main.py --mode train
 or training with __specified parameters__:
 
 ```bash
-## Regarding the challenge
+## Architecture based parameters 
 $ python main.py --mode train --pooling 4             ## Number of pooling operation
 $ python main.py --mode train --conv 2                ## Number of convolution in a block
 $ python main.py --mode train --batch_norm yes        ## Adding batch normalization layers
