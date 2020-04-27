@@ -154,7 +154,7 @@ Predictions will be saved in ___`data/tmp/predictions/`___
 * Link models saved and config 
 * Gather predict / predict_test
 * pytest 
-* Absolute path and not relative path
+* fix imports
 
 * Better code design
 * Better parametrisation 
