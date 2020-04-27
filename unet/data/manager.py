@@ -136,7 +136,7 @@ class Data_manager:
         # Caching the dataset for optimization
         dataset_train = dataset_train.cache("data/tmp/dataset_train.cache")
         dataset_validation = dataset_validation.cache("data/tmp/dataset_val.cache")
-        dataset_test = dataset_test.cache("data/tmp/dataset_test.cache")
+        # dataset_test = dataset_test.cache("data/tmp/dataset_test.cache")
 
         return dataset_train, dataset_validation, dataset_test
 
@@ -154,6 +154,7 @@ class Data_manager:
             os.mkdir(save_path)
 
         count = 0
+
         for batch in dataset_test:
             if batch_size is not None:
                 for img in batch:
