@@ -4,8 +4,7 @@ import unet.utils.functions as gf
 import argparse
 import os
 import math
-import numpy as np
-from PIL import Image
+
 class Unet:
     """
     The Unet class implement the model architecture as depicted in the original paper
