@@ -150,7 +150,7 @@ Predictions will be saved in ___`data/tmp/predictions/`___
 
 * Load hyperparameters from config file
 * Subparser regarding mode 
-* Link models saved and config 
+* Link config and saved models 
 * Gather predict / predict_test
 * pytest 
 * fix imports
