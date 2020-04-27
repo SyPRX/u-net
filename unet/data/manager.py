@@ -4,6 +4,7 @@ from skimage.color import rgb2gray
 import numpy as np
 import os
 from unet.utils.functions import get_binary_mask
+
 class Data_manager:
     """
     Data manager allows to manage data before, during and after training
