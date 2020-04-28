@@ -1,7 +1,7 @@
 
 # U-net
 
-This is an implementation of the U-net paper: [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
+This is a parametric implementation of the U-net paper: [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
 
 ## Requirements
 
